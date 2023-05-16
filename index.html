@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Miles Resume</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Miles</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="bx bx-home nav__icon"></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class="bx bx-user nav__icon"></i>User
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class="bx bx-book nav__icon"></i>Education
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="bx bx-receipt nav__icon"></i>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class="bx bx-briefcase-alt nav__icon"></i>Experience
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#project" class="nav__link">
+                                <i class="bx bx-award nav__icon"></i>Projects
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-grid-alt"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="assets/img/miles.jpg" alt="img" class="home__img">
+
+                                <h1 class="home__title">JOHN MILES MORALES</h1>
+                                <h3 class="home__profession">Game Developer</h3>
+                            
+                                <div>
+                                    <a download="" href="assets/pdf/Morales_JohnMiles_Resume.pdf" class="home__button-movil">Download</a>
+                                </div>
+                            </div>
+                            
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class="bx bx-map home__icon"></i> Brgy. Kaypian Sjdm, Bul.
+                                </span>
+                                <span class="home__information">
+                                    <i class="bx bx-envelope home__icon"></i> bsemc.moralesjohnmiles@gmail.com
+                                </span>
+                                <span class="home__information">
+                                    <i class="bx bx-phone home__icon"></i> +63 995-063-0525
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Theme change button -->
+                        <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+    
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+                    </section>          
+                    
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Summary</h2>
+
+                        <p class="profile__description">An aspiring game developer Intern with 3 years of experience in game development. Skilled in leading teams of
+                            programmers to develop games in Unity. Expertise in gameplay programming, AI, and user interface design</p>
+                    </section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Education</h2>
+
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Major in Game Development</h3>
+                                    <span class="education__studies">City College of SJDM</span>
+                                    <span class="education__year">2020-2023</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Major in Arts and Design</h3>
+                                    <span class="education__studies">First City Providential College</span>
+                                    <span class="education__year">2018-2020</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__line"></span> Unity
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__line"></span> C#
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__line"></span> Java
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__line"></span> Git
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__line"></span> Html/css
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__line"></span> Javascript
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__line"></span> React
+                                </li>                          
+                                <li class="skills__name">
+                                    <span class="skills__line"></span> UI/UX
+                                </li>                          
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Freelance Video Editor</h3>
+                                    <span class="experience__company">
+                                        <i class='bx bx-calendar experience__icon'></i> 2022
+                                    </span>
+                                    <p class="experience__description">Worked with a vlogger to edit a raw images, footage, script into finished product for social media growth</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Freelance 3D Artist</h3>
+                                    <span class="experience__company">
+                                        <i class='bx bx-calendar experience__icon'></i> 2022
+                                    </span>
+                                    <p class="experience__description">Worked with NFT project, a blockchain-based initiative that involves creating, buying, and selling non-fungible tokens (NFTs)</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Freelance Virtual Assistant</h3>
+                                    <span class="experience__company">
+                                        <i class='bx bx-calendar experience__icon'></i> 2021
+                                    </span>
+                                    <p class="experience__description">Worked with a business man as a remote assistant. Organized and maintained online files, schedules, and assisted social media growth</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== PROJECTS ==========-->
+                    <section class="project section" id="project">
+                        <h2 class="section-title">Projects</h2>
+
+                        <div class="project__container bd-grid">
+                            <div class="project__content">
+                                <div class="project__time">
+                                    <span class="project__rounder"></span>
+                                    <span class="project__line"></span>
+                                </div>
+
+                                <div class="project__data bd-grid">
+                                    <h3 class="project__title">Lakbay Bulacan</h3>
+                                    <span class="project__company">
+                                        <i class='bx bx-calendar project__icon'></i> 2021
+                                    </span>
+                                    <p class="project__description">An adventure visual novel game that showcase the cities of Bulacan</p>
+                                    <ul class="project__finished">
+                                        <li>Crafted a compelling and engaging narrative for a visual novel game, demonstrating strong skills in storytelling, character development, and
+                                            dialogue writing.
+                                        </li>
+                                        <li>Successfully marketed and promoted a visual novel game, demonstrating skills in marketing, business development, and social media
+                                            management</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="project__content">
+                                <div class="project__time">
+                                    <span class="project__rounder"></span>
+                                    <span class="project__line"></span>
+                                </div>
+
+                                <div class="project__data bd-grid">
+                                    <h3 class="project__title">Sharpshooter.io</h3>
+                                    <span class="project__company">
+                                        <i class='bx bx-calendar project__icon'></i> 2022
+                                    </span>
+                                    <p class="project__description">An endless 2D top down action shooter</p>
+                                    <ul class="project__finished">
+                                        <li>Implemented a procedural generation that highlights complex algorithms and dynamic gameplay experiences.</li>
+                                        <li>Employed optimization techniques to ensure smooth performance on various platforms and devices.</li>
+                                        <li>Designed challenging gameplay that provides a satisfying level of difficulty without being frustrating, resulting in a high player retention rate.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="project__content">
+                                <div class="project__time">
+                                    <span class="project__rounder"></span>
+                                </div>
+
+                                <div class="project__data bd-grid">
+                                    <h3 class="project__title">Deadly Delivery</h3>
+                                    <span class="project__company">
+                                        <i class='bx bx-calendar project__icon'></i> 2023
+                                    </span>
+                                    <p class="project__description">2D action game with various game modes</p>
+                                    <ul class="project__finished">
+                                        <li>Created a highly replayable 2D action game with varied game modes, dynamic combat mechanics, and balanced game flow.</li>
+                                        <li>Designed engaging and visually appealing levels for a 2D action game, showcasing skills in game design and art.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
